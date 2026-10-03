@@ -2,7 +2,9 @@
 
 **A course project comparing classical classifiers and a GRU autoencoder on network-traffic data.** The notebooks examine detection quality alongside batch inference time, including the effect of weak attack recall despite high precision.
 
-**Start here:** [`IDS.ipynb`](IDS.ipynb) for the saved experiments and final evaluation cells. The repository also contains [`data_preprocessing&modeling.ipynb`](data_preprocessing%26modeling.ipynb), a closely related notebook version.
+**Start here:** [`IDS.ipynb`](IDS.ipynb) for the saved experiments and final evaluation cells. The repository also contains [`data_preprocessing&modeling.ipynb`](data_preprocessing%26modeling.ipynb), the same 18 experiment cells with an extra opening Colab badge.
+
+**Review guide:** [cell map, input contract, saved-output provenance, and timing boundaries](docs/NOTEBOOK_GUIDE.md).
 
 ## Problem and contribution record
 
@@ -22,7 +24,7 @@ The public contribution record includes [JAEUK02's notebook upload](https://gith
 
 ## Archived results
 
-These values are transcribed from the **final saved evaluation outputs**, not a new reproduction. Earlier cells contain other trial outputs. The saved preprocessing output reports 1,764,525 training rows and 756,226 test rows, with 52 features.
+These values are transcribed from the **final saved evaluation outputs**, not a new reproduction. Earlier cells contain other trial outputs. Some archived errors do not match the current cell source, so these outputs do not establish a clean run of the committed notebook; see the [provenance notes](docs/NOTEBOOK_GUIDE.md#saved-output-provenance). The saved preprocessing output reports 1,764,525 training rows and 756,226 test rows, with 52 features.
 
 | Model | Precision | Recall | F1 | Recorded batch inference time |
 | --- | ---: | ---: | ---: | ---: |
